@@ -24,7 +24,13 @@ class Allthedata extends Api
 
     public function getList()
     {
-        $uid = input('uid');
+        $json_string = file_get_contents('versionData.json');
+
+        return api_json('0', 'ok', $json_string);
+    }
+
+    public function versionData()
+    {
         $data = [];
 
         $category         = new Category();
@@ -38,12 +44,13 @@ class Allthedata extends Api
 
         $data['papersCategory'] = $category->getPaperCaetgory();
 
-        $data['userData'] = model('QuestionsUser')->where('uid', $uid)->select();
-
         $data['version'] = model('Config')->where('name', 'version')->value('value');
         $data['pdfversion'] = model('Config')->where('name', 'pdfversion')->value('value');
 
-        return api_json('0', 'ok', $data);
+        // 把PHP数组转成JSON字符串
+        $json_string = json_encode($data);
+        // 写入文件
+        file_put_contents('versionData.json', $json_string);
     }
 
     /**
