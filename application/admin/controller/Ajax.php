@@ -238,7 +238,7 @@ class Ajax extends Backend
         $where = ['status' => 'normal'];
         $categorylist = null;
         $where['pid'] = $pid;
-        $categorylist = Db::name('category')->where($where)->field('id as value,name')->order('id',  'desc')->select();
+        $categorylist = Db::name('category')->where($where)->field('id as value,name')->order('weigh desc,id desc')->select();
 
         $this->success('', null, $categorylist);
     }
@@ -255,7 +255,7 @@ class Ajax extends Backend
             'type'   => 2
         ];
         $categorylist = null;
-        $categorylist = Db::name('category')->where($where)->field('id as value,name,type')->order('id', 'desc')->select();
+        $categorylist = Db::name('category')->where($where)->field('id as value,name,type')->order('weigh desc,id desc')->select();
         $this->success('', null, $categorylist);
     }
 

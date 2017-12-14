@@ -31,6 +31,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'name', title: __('Name'), align: 'left'},
                         {field: 'accounted', title: __('Accounted')},
                         {field: 'status', title: __('Status'), operate: false, formatter: Table.api.formatter.status},
+                        {field: 'weigh', title: __('Weigh')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]
