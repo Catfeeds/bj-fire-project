@@ -24,9 +24,23 @@ class Allthedata extends Api
 
     public function getList()
     {
-        $json_string = file_get_contents('versionData.json');
+        $data = [];
 
-        return api_json('0', 'ok', $json_string);
+        $category         = new Category();
+        $data['category'] = $category->getChaptersCategoryList();
+
+        $questions = new Questions();
+        $data['questions'] = $questions->getAllList();
+
+        $papers = new Rule();
+        $data['papers'] = $papers->getPaperRuleList();
+
+        $data['papersCategory'] = $category->getPaperCaetgory();
+
+        $data['version'] = model('Config')->where('name', 'version')->value('value');
+        $data['pdfversion'] = model('Config')->where('name', 'pdfversion')->value('value');
+
+        return api_json('0', 'ok', $data);
     }
 
     public function versionData()
