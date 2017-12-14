@@ -14,13 +14,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '192.168.199.174',
+    'hostname'        => '118.31.47.137',
     // 数据库名
     'database'        => 'fireadmin',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'wangcailin',
     // 密码
-    'password'        => '',
+    'password'        => 'mcywclmysql',
     // 端口
     'hostport'        => '',
     // 连接dsn
