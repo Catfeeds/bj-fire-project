@@ -25,6 +25,7 @@ class Message extends Backend
         parent::_initialize();
         $this->model = model('Message');
 
+        $this->view->assign("typeList", $this->model->getTypeList());
     }
     
     /**

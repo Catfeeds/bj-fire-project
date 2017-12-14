@@ -37,9 +37,14 @@ class Message extends Model
         return $value && !is_numeric($value) ? strtotime($value) : $value;
     }
 
-    public function getMessageRuleList()
+    /**
+     * 获取信息展示内容
+     * @param $type
+     * @return array
+     */
+    public function getMessageRuleList($type)
     {
-        $data = $this->find()->getData();
+        $data = $this->where('type', $type)->find()->getData();
 
         $text = [
             'text' => null,

@@ -29,7 +29,8 @@ class Message extends Api
 
     public function getMessage()
     {
-        $res = $this->model->getMessageRuleList();
+        $type = input('type');
+        $res  = $this->model->getMessageRuleList($type);
         if ($res){
             return api_json('0', 'ok', $res);
         }

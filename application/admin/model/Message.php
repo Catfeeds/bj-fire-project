@@ -15,16 +15,14 @@ class Message extends Model
     // 定义时间戳字段名
     protected $createTime = false;
     protected $updateTime = false;
-    
+
+    // 定义题目类型
+    protected $messageType = [0 => '消防工程师', 1 => '消防员'];
+
     // 追加属性
     protected $append = [
         'time_text'
     ];
-    
-
-    
-
-
 
     public function getTimeTextAttr($value, $data)
     {
@@ -35,6 +33,15 @@ class Message extends Model
     protected function setTimeAttr($value)
     {
         return $value && !is_numeric($value) ? strtotime($value) : $value;
+    }
+
+    /**
+     * 读取消息类型
+     * @return array
+     */
+    public function getTypeList()
+    {
+        return $this->messageType;
     }
 
 
