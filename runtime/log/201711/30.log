@@ -1,0 +1,3515 @@
+---------------------------------------------------------------
+[ 2017-11-30T08:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] fire.mcykj.com/ [运行时间：0.354161s][吞吐率：2.82req/s] [内存消耗：3,009.08kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012519s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003524s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/wangcailin/Web/Work/Fire/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/index/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:58:52+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] fire.mcykj.com/favicon.ico [运行时间：0.068417s][吞吐率：14.62req/s] [内存消耗：2,202.80kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000227s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002646s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:58:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：0.088505s][吞吐率：11.30req/s] [内存消耗：3,431.26kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002135s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000493s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002361s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1512003533
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=index&v=1512003533 [运行时间：0.081519s][吞吐率：12.27req/s] [内存消耗：3,446.77kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.026638s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1512003533',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000475s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000409s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:58:57+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：0.391285s][吞吐率：2.56req/s] [内存消耗：4,515.98kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001091s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '74',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'c4fb3184003c48ed14c6bfc077e83d3f',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000317s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.031993s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049708s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.181261s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.006747s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1512003537,`token`='1e711beb-60ac-4463-899d-02ff50dd7d25',`updatetime`=1512003537  WHERE  `id` = 1 [ RunTime:0.011669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.014799s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"c4fb3184003c48ed14c6bfc077e83d3f\",\"username\":\"admin\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0' , '127.0.0.1' , 1512003537) [ RunTime:0.014819s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] fire.mcykj.com/admin/index/index [运行时间：1.367159s][吞吐率：0.73req/s] [内存消耗：5,101.77kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041031s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000558s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008164s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011402s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.019753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012098s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.022957s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:58:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1512003537
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=index&v=1512003537 [运行时间：0.088648s][吞吐率：11.28req/s] [内存消耗：3,505.30kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042090s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1512003537',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000728s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:58:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] fire.mcykj.com/admin/dashboard?addtabs=1 [运行时间：0.172034s][吞吐率：5.81req/s] [内存消耗：4,772.07kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002037s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000384s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025197s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008093s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.013240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009425s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028546s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.002765s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1512003539
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=dashboard&v=1512003539 [运行时间：0.062974s][吞吐率：15.88req/s] [内存消耗：3,504.90kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001720s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/dashboard?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1512003539',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000216s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000474s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/rule?addtabs=1
+[ info ] fire.mcykj.com/admin/auth/rule?addtabs=1 [运行时间：0.256755s][吞吐率：3.89req/s] [内存消耗：5,420.65kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000075s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041057s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000273s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/auth/rule/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000231s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013168s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.014787s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.006818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008028s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013386s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.017885s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.009941s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.rule&v=1512003542
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=auth.rule&v=1512003542 [运行时间：0.074410s][吞吐率：13.44req/s] [内存消耗：3,500.98kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.032206s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/rule?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1512003542',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000458s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000214s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/rule/index?sort=weigh&order=desc&_=1512003542973
+[ info ] fire.mcykj.com/admin/auth/rule/index?sort=weigh&order=desc&_=1512003542973 [运行时间：0.131367s][吞吐率：7.61req/s] [内存消耗：5,338.66kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001179s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1512003542973',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000234s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012381s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006021s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.008291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009920s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.007067s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.013894s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/rule/edit/ids/1?dialog=1
+[ info ] fire.mcykj.com/admin/auth/rule/edit/ids/1?dialog=1 [运行时间：0.265256s][吞吐率：3.77req/s] [内存消耗：5,562.58kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042176s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/rule?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001384s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Rule.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/auth/rule/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+  6 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018546s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010017s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.027234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007227s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.024450s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` ORDER BY `weigh`  desc [ RunTime:0.022329s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.010066s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.rule&v=1512003546
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=auth.rule&v=1512003546 [运行时间：0.081834s][吞吐率：12.22req/s] [内存消耗：3,500.96kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040176s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/rule/edit/ids/1?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1512003546',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000729s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/group?addtabs=1
+[ info ] fire.mcykj.com/admin/auth/group?addtabs=1 [运行时间：0.241596s][吞吐率：4.14req/s] [内存消耗：5,010.96kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001760s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000245s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Group.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/auth/group/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000242s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011361s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015871s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.005406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.021321s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.008267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.012939s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.007771s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.009907s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.032866s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.group&v=1512003549
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=auth.group&v=1512003549 [运行时间：0.080643s][吞吐率：12.40req/s] [内存消耗：3,500.57kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.035868s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/group?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.group',
+  'v' => '1512003549',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000466s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000293s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/group/index?sort=id&order=desc&_=1512003550211
+[ info ] fire.mcykj.com/admin/auth/group/index?sort=id&order=desc&_=1512003550211 [运行时间：0.281130s][吞吐率：3.56req/s] [内存消耗：4,832.91kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001593s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/group?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  '_' => '1512003550211',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000424s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/group.php
+[ info ] [ RUN ] app\admin\controller\auth\Group->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Group.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000343s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023895s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.031446s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.010087s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010166s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.010863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.007930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.006740s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.014014s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.045754s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.016351s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.010713s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.010402s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/adminlog?addtabs=1
+[ info ] fire.mcykj.com/admin/auth/adminlog?addtabs=1 [运行时间：0.239470s][吞吐率：4.18req/s] [内存消耗：5,076.56kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.043112s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000416s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Adminlog.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/auth/adminlog/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000226s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012876s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003788s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.004462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006966s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.025746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.005471s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.005749s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,4,5) [ RunTime:0.010850s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.015322s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,4,5) [ RunTime:0.004852s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/adminlog' LIMIT 1 [ RunTime:0.007851s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.adminlog&v=1512003551
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=auth.adminlog&v=1512003551 [运行时间：0.070692s][吞吐率：14.15req/s] [内存消耗：3,498.89kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028728s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/adminlog?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.adminlog',
+  'v' => '1512003551',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000445s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000215s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003551909
+[ info ] fire.mcykj.com/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003551909 [运行时间：0.242517s][吞吐率：4.12req/s] [内存消耗：4,961.99kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001388s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.adminlog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/adminlog?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1512003551909',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002486s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\auth\Adminlog->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Adminlog.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000272s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012338s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006792s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.011717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.023623s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.013160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.007652s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.009976s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,4,5) [ RunTime:0.016251s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.022194s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,4,5) [ RunTime:0.003017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.023753s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.009674s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.010934s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/admin?addtabs=1
+[ info ] fire.mcykj.com/admin/auth/admin?addtabs=1 [运行时间：0.586733s][吞吐率：1.70req/s] [内存消耗：5,043.32kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001706s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001180s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Admin.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/auth/admin/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'groupdata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000223s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019260s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015164s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.010882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007973s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.025174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.006418s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.009446s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,4,5) [ RunTime:0.010661s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.032508s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,4,5) [ RunTime:0.357111s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.005320s ]
+---------------------------------------------------------------
+[ 2017-11-30T08:59:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=auth.admin&v=1512003554
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=auth.admin&v=1512003554 [运行时间：0.042393s][吞吐率：23.59req/s] [内存消耗：3,499.68kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011307s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/admin?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.admin',
+  'v' => '1512003554',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000339s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000197s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T08:59:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003554722
+[ info ] fire.mcykj.com/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003554722 [运行时间：0.418412s][吞吐率：2.39req/s] [内存消耗：4,879.11kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001181s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/auth/admin?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1512003554722',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001179s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/auth/admin.php
+[ info ] [ RUN ] app\admin\controller\auth\Admin->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/auth/Admin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037276s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008846s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.004554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007681s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.055672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.015310s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.009296s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,4,5) [ RunTime:0.022730s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.018598s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (2,3,4,5) [ RunTime:0.020312s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.021680s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (2,3,4,5) [ RunTime:0.016160s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (1) [ RunTime:0.032455s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (1) [ RunTime:0.026938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.021013s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  `id` IN (1) ORDER BY `id`  desc LIMIT 1 [ RunTime:0.012862s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `fa_admin` WHERE  `id` IN (1) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.019370s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:02:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad?addtabs=1
+[ info ] fire.mcykj.com/admin/ad?addtabs=1 [运行时间：0.164532s][吞吐率：6.08req/s] [内存消耗：4,777.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001888s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000247s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015285s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013273s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.029086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007573s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014537s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'ad' LIMIT 1 [ RunTime:0.010977s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:02:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003745
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003745 [运行时间：0.082519s][吞吐率：12.12req/s] [内存消耗：3,499.29kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041700s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003745',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000540s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003745782
+[ info ] fire.mcykj.com/admin/ad/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003745782 [运行时间：0.545770s][吞吐率：1.83req/s] [内存消耗：4,771.96kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001572s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1512003745782',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000491s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033717s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.180726s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.025236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011843s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.179525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.013667s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_ad` ORDER BY `id`  desc LIMIT 1 [ RunTime:0.014897s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.021515s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.058506s][吞吐率：17.09req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003373s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/04a52fc280e9fe551a9919f8f563af20.jpg
+[ info ] fire.mcykj.com/uploads/20171121/04a52fc280e9fe551a9919f8f563af20.jpg [运行时间：0.052356s][吞吐率：19.10req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002662s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => '04a52fc280e9fe551a9919f8f563af20.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/8798268b568a001e7a53cef822759c92.jpg
+[ info ] fire.mcykj.com/uploads/20171121/8798268b568a001e7a53cef822759c92.jpg [运行时间：0.092639s][吞吐率：10.79req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.043849s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => '8798268b568a001e7a53cef822759c92.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171122/a5ead992959d08c06b3320a6867156d5.jpg
+[ info ] fire.mcykj.com/uploads/20171122/a5ead992959d08c06b3320a6867156d5.jpg [运行时间：0.025359s][吞吐率：39.43req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001559s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171122',
+    2 => 'a5ead992959d08c06b3320a6867156d5.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171122/3b2b539c19f9b7cae30b4af3bddae7b3.jpg
+[ info ] fire.mcykj.com/uploads/20171122/3b2b539c19f9b7cae30b4af3bddae7b3.jpg [运行时间：0.030190s][吞吐率：33.12req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001834s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171122',
+    2 => '3b2b539c19f9b7cae30b4af3bddae7b3.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171122/285edda5ec3f7e8d313eb244f0b7b4e0.jpg
+[ info ] fire.mcykj.com/uploads/20171122/285edda5ec3f7e8d313eb244f0b7b4e0.jpg [运行时间：0.068981s][吞吐率：14.50req/s] [内存消耗：2,203.78kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.035956s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171122',
+    2 => '285edda5ec3f7e8d313eb244f0b7b4e0.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.176087s][吞吐率：5.68req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002767s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000480s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000226s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013925s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012214s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.014093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.025654s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.004871s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.012103s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003753
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003753 [运行时间：0.055030s][吞吐率：18.17req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013669s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003753',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000413s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000185s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:02:34+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.070220s][吞吐率：14.24req/s] [内存消耗：2,203.73kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042621s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.190798s][吞吐率：5.24req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002040s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000278s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000228s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011052s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006243s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.013803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.031317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.023115s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.006833s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:03:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003802
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003802 [运行时间：0.073643s][吞吐率：13.58req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.037299s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003802',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000317s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000548s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:23+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.034821s][吞吐率：28.72req/s] [内存消耗：2,203.73kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001970s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.177545s][吞吐率：5.63req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000105s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003437s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000655s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000400s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004868s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.014833s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.010458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003449s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.011236s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.011885s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003817
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003817 [运行时间：0.085796s][吞吐率：11.66req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041354s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003817',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000492s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.031954s][吞吐率：31.29req/s] [内存消耗：2,203.73kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001755s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.289563s][吞吐率：3.45req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001362s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000299s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.169165s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.005994s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.009871s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005135s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.011408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.007845s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.012226s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003818
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003818 [运行时间：0.087450s][吞吐率：11.44req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041609s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003818',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000433s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000111s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.084060s][吞吐率：11.90req/s] [内存消耗：2,203.73kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042187s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.126649s][吞吐率：7.90req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002422s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000227s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004993s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.004225s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.012444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011827s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.014472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.005109s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.010342s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:03:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003820
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003820 [运行时间：0.087636s][吞吐率：11.41req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.031692s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003820',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000432s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ad/edit/ids/6?dialog=1
+[ info ] fire.mcykj.com/admin/ad/edit/ids/6?dialog=1 [运行时间：0.185981s][吞吐率：5.38req/s] [内存消耗：4,760.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000080s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005612s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '6',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000321s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /Users/wangcailin/Web/Work/Fire/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/ad/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'pageList',
+  7 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000224s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021375s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011258s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.014826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.014260s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.034577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.019461s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.009592s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=ad&v=1512003823
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=ad&v=1512003823 [运行时间：0.082808s][吞吐率：12.08req/s] [内存消耗：3,499.53kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041254s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ad',
+  'v' => '1512003823',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000490s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/ad.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000182s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg
+[ info ] fire.mcykj.com/uploads/20171121/c97bd110d1382d6fdeb75cc052cb8634.jpg [运行时间：0.026191s][吞吐率：38.18req/s] [内存消耗：2,203.73kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001497s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171121',
+    2 => 'c97bd110d1382d6fdeb75cc052cb8634.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/ad/edit/ids/6?dialog=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:04:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questions/index?addtabs=1
+[ info ] fire.mcykj.com/admin/questions/index?addtabs=1 [运行时间：0.143287s][吞吐率：6.98req/s] [内存消耗：4,818.80kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000085s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001226s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questions',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questions.php
+[ info ] [ RUN ] app\admin\controller\Questions->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questions.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/questions/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'imageList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000170s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018825s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.030438s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.011818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006028s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.007072s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'questions' LIMIT 1 [ RunTime:0.002349s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=questions&v=1512003853
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=questions&v=1512003853 [运行时间：0.077314s][吞吐率：12.93req/s] [内存消耗：3,500.02kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041158s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'questions',
+  'v' => '1512003853',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000293s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questions.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:04:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questions/getTypeListAjax
+[ info ] fire.mcykj.com/admin/questions/getTypeListAjax [运行时间：0.175133s][吞吐率：5.71req/s] [内存消耗：4,788.47kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002071s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questions',
+    2 => 'getTypeListAjax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000311s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questions.php
+[ info ] [ RUN ] app\admin\controller\Questions->getTypeListAjax[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questions.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000116s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027706s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.031955s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.005740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.015908s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.035960s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questions/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003855851
+[ info ] fire.mcykj.com/admin/questions/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003855851 [运行时间：1.641038s][吞吐率：0.61req/s] [内存消耗：4,821.91kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001291s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questions',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1512003855851',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questions.php
+[ info ] [ RUN ] app\admin\controller\Questions->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questions.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.410645s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.007328s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.004804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.020153s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.020078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_questions` [ RunTime:0.016233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_questions` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.007380s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`answer`,`difficulty`,`category`,`images`,`weigh` FROM `fa_questions` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.018860s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/category?pid=0
+[ info ] fire.mcykj.com/admin/ajax/category?pid=0 [运行时间：1.650827s][吞吐率：0.61req/s] [内存消耗：4,446.96kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001383s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000229s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036285s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.015993s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `pid` = 0 ORDER BY weigh desc,id desc [ RunTime:0.009027s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questionsoft?addtabs=1
+[ info ] fire.mcykj.com/admin/questionsoft?addtabs=1 [运行时间：1.528170s][吞吐率：0.65req/s] [内存消耗：4,776.57kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001738s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questionsoft',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/index',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000209s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questionsoft.php
+[ info ] [ RUN ] app\admin\controller\Questionsoft->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questionsoft.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/questionsoft/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+  6 => 'imageList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009563s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003548s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.005666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.009500s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.017397s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'questionsoft' LIMIT 1 [ RunTime:0.006530s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15 [运行时间：0.562537s][吞吐率：1.78req/s] [内存消耗：5,633.70kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001839s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '151,152,40,18,15',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000596s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008370s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012311s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.016254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.031676s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.023354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.020193s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.014540s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.003501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.008422s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.012432s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.021546s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.005605s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152 [运行时间：0.399809s][吞吐率：2.50req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041065s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,18,40,151,152',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000456s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000272s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007373s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008373s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.010665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.016465s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.016032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.014091s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.010356s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.007035s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.005344s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.005214s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.004304s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.003774s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15 [运行时间：0.347320s][吞吐率：2.88req/s] [内存消耗：5,633.63kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001116s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '151,152,40,18,15',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000426s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000234s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006568s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.010011s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.013616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.006117s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.019383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.016604s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.018414s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.004423s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.007314s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.009126s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.006988s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.003937s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=151%2C152%2C40%2C18%2C15 [运行时间：0.394787s][吞吐率：2.53req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001418s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '151,152,40,18,15',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000278s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000285s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019156s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015858s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.008015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.023133s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.006150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.003776s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.031384s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.004195s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.004651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.015512s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.015322s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.013073s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152 [运行时间：0.460072s][吞吐率：2.17req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001079s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,18,40,151,152',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000227s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000279s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025012s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009834s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.006269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012684s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.008950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.008155s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.015627s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.047966s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.015374s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.005748s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.028131s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.015624s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C18%2C40%2C151%2C152 [运行时间：0.418203s][吞吐率：2.39req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002157s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,18,40,151,152',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000280s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000233s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022229s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.028083s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.008532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011882s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.023586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.006790s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.030753s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.011701s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.005541s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.005206s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.010119s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 152 LIMIT 1 [ RunTime:0.007167s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158 [运行时间：0.375037s][吞吐率：2.67req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001017s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,17,35,157,158',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000224s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000246s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012677s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.008805s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.008583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010652s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.017911s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.004228s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.020091s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.012369s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.002948s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.006633s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 157 LIMIT 1 [ RunTime:0.007207s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 158 LIMIT 1 [ RunTime:0.003093s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158 [运行时间：0.343603s][吞吐率：2.91req/s] [内存消耗：5,633.67kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001026s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,17,35,157,158',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000335s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000140s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026738s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009851s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.004138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004603s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.006169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.007841s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.012764s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.009054s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.006255s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.008952s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 157 LIMIT 1 [ RunTime:0.011986s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 158 LIMIT 1 [ RunTime:0.004985s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158 [运行时间：0.336222s][吞吐率：2.97req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001239s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,17,35,157,158',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000285s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006445s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003656s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.009073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.004074s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.005919s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.004881s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.010276s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.012557s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.013275s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 157 LIMIT 1 [ RunTime:0.007011s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 158 LIMIT 1 [ RunTime:0.023368s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158
+[ info ] fire.mcykj.com/admin/category/getCategroyList?categorylist=15%2C17%2C35%2C157%2C158 [运行时间：0.417076s][吞吐率：2.40req/s] [内存消耗：5,633.65kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001027s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'getCategroyList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questions/index?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'categorylist' => '15,17,35,157,158',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000426s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->getCategroyList[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000396s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021229s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.006251s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.007367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.015608s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.009078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.004654s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY weigh desc,id desc [ RunTime:0.013683s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.009164s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.019740s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.013927s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 157 LIMIT 1 [ RunTime:0.012018s ]
+[ sql ] [ SQL ] SELECT `name` FROM `fa_category` WHERE  `id` = 158 LIMIT 1 [ RunTime:0.013425s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=questionsoft&v=1512003856
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=questionsoft&v=1512003856 [运行时间：0.080144s][吞吐率：12.48req/s] [内存消耗：3,500.35kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041241s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questionsoft?addtabs=1',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'questionsoft',
+  'v' => '1512003856',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000564s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questionsoft.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-30T09:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questions/getTypeListAjax
+[ info ] fire.mcykj.com/admin/questions/getTypeListAjax [运行时间：0.149813s][吞吐率：6.67req/s] [内存消耗：4,788.64kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002780s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questions',
+    2 => 'getTypeListAjax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questionsoft?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000304s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questions.php
+[ info ] [ RUN ] app\admin\controller\Questions->getTypeListAjax[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questions.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000620s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008674s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013492s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.007021s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.016364s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.011986s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/questionsoft/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003862105
+[ info ] fire.mcykj.com/admin/questionsoft/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1512003862105 [运行时间：0.358869s][吞吐率：2.79req/s] [内存消耗：4,802.19kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.045085s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'questionsoft',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questionsoft?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1512003862105',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000546s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/questionsoft.php
+[ info ] [ RUN ] app\admin\controller\Questionsoft->index[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Questionsoft.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039399s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.031222s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.003587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.028223s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.008480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_questions` [ RunTime:0.011613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_questions` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.020420s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_questions` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.036726s ]
+---------------------------------------------------------------
+[ 2017-11-30T09:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/category?pid=0
+[ info ] fire.mcykj.com/admin/ajax/category?pid=0 [运行时间：0.376485s][吞吐率：2.66req/s] [内存消耗：4,446.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.089971s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/questionsoft?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511841007,1511916848,1511962649,1512003532; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1512003532; PHPSESSID=qdomgeon27ivr855s6vs6iov40',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000701s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->category[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000357s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033798s ] mysql:host=192.168.199.174;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.011268s ]
+[ sql ] [ SQL ] SELECT id as value,`name` FROM `fa_category` WHERE  `status` = 'normal'  AND `pid` = 0 ORDER BY weigh desc,id desc [ RunTime:0.022244s ]

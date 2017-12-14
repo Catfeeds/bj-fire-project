@@ -1,0 +1,625 @@
+---------------------------------------------------------------
+[ 2017-11-29T08:54:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] fire.mcykj.com/ [运行时间：0.638638s][吞吐率：1.57req/s] [内存消耗：3,009.08kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.117609s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511575291,1511746584,1511833797,1511841007',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003933s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/wangcailin/Web/Work/Fire/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/index/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T08:54:07+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] fire.mcykj.com/favicon.ico [运行时间：0.061345s][吞吐率：16.30req/s] [内存消耗：2,202.80kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000232s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001873s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511746584,1511833797,1511841007,1511916848; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511916848',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T21:37:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] fire.mcykj.com/ [运行时间：0.396075s][吞吐率：2.52req/s] [内存消耗：3,009.01kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.023038s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511746584,1511833797,1511841007,1511916848',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003949s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/wangcailin/Web/Work/Fire/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/index/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T21:37:29+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] fire.mcykj.com/favicon.ico [运行时间：0.071829s][吞吐率：13.92req/s] [内存消耗：2,202.96kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.029772s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T21:37:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：0.070836s][吞吐率：14.12req/s] [内存消耗：3,431.16kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001175s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000408s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003022s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T21:37:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1511962650
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=index&v=1511962650 [运行时间：0.068008s][吞吐率：14.70req/s] [内存消耗：3,446.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016590s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1511962650',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000638s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001168s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T21:38:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：30.159287s][吞吐率：0.03req/s] [内存消耗：4,471.46kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042385s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '74',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '09a217b3cba593d619e7cb1f29b6f536',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000427s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Operation timed out[/Users/wangcailin/Web/Work/Fire/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-29T21:39:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：30.100226s][吞吐率：0.03req/s] [内存消耗：4,449.62kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001187s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '74',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '09a217b3cba593d619e7cb1f29b6f536',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000312s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Operation timed out[/Users/wangcailin/Web/Work/Fire/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-29T22:13:06+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：30.122547s][吞吐率：0.03req/s] [内存消耗：4,471.46kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001083s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '74',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'df57ecfd630785e2da47869fe502eabf',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000361s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Operation timed out[/Users/wangcailin/Web/Work/Fire/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-29T22:13:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：26.248279s][吞吐率：0.04req/s] [内存消耗：3,431.10kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040330s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000277s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000619s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T22:13:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1511964760
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=index&v=1511964760 [运行时间：0.086888s][吞吐率：11.51req/s] [内存消耗：3,446.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041370s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1511964760',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000462s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000267s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T22:37:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：30.137532s][吞吐率：0.03req/s] [内存消耗：4,471.46kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001105s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '74',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'ba561a14dcfcdb3b3d49f02c3e1632b8',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000238s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Operation timed out[/Users/wangcailin/Web/Work/Fire/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-29T22:37:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ info ] fire.mcykj.com/admin/index/login.html [运行时间：17.066158s][吞吐率：0.06req/s] [内存消耗：3,431.48kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002102s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000293s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000233s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-29T22:37:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1511966217
+[ info ] fire.mcykj.com/admin/ajax/lang?callback=define&controllername=index&v=1511966217 [运行时间：0.078064s][吞吐率：12.81req/s] [内存消耗：3,446.45kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.041561s ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fire.mcykj.com/admin/index/login.html',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1511833797,1511841007,1511916848,1511962649; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1511962649; PHPSESSID=1pfgc77j7mfna5uj6l3k905bi5',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1511966217',
+)
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000279s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/wangcailin/Web/Work/Fire/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/wangcailin/Web/Work/Fire/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
