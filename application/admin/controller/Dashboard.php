@@ -28,8 +28,13 @@ class Dashboard extends Backend
         }
         $hooks = config('addons.hooks');
         $uploadmode = isset($hooks['upload_config_init']) && $hooks['upload_config_init'] ? implode(',', $hooks['upload_config_init']) : 'local';
+
+        $totaluser = model('User')->count();
+        $categorycount = model('Category')->count();
+        $attachmentcount = model('Attachment')->count();
+
         $this->view->assign([
-            'totaluser'        => 35200,
+            'totaluser'        => $totaluser,
             'totalviews'       => 219390,
             'totalorder'       => 32143,
             'totalorderamount' => 174800,
@@ -41,7 +46,9 @@ class Dashboard extends Backend
             'sevendau'         => '32%',
             'paylist'          => $paylist,
             'createlist'       => $createlist,
-            'uploadmode'       => $uploadmode
+            'uploadmode'       => $uploadmode,
+            'categorycount'    => $categorycount,
+            'attachmentcount' => $attachmentcount
         ]);
 
         return $this->view->fetch();
