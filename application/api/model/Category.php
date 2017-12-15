@@ -33,7 +33,7 @@ class Category extends Model
      */
     public function getChaptersQuestionList($ids)
     {
-        $result = $this->field('id,pid,name')->where('pid', $ids)->select();
+        $result = $this->field('id,pid,name')->where('pid', $ids)->order('weigh desc,id desc')->select();
 
         foreach ($result as $k=>$v){
             $where['category'] = ['like', '%,'.$v['id'].',%'];
