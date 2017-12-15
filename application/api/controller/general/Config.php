@@ -39,9 +39,9 @@ class Config extends Api
             }elseif ($v['name'] == 'logo'){
                 $data['logo'] = $website . $v['value'];
             }elseif ($v['name'] == 'wechat'){
-                $data['wechat'] = $website  . '/general/config/detail/ids/'.$v['id'];
+                $data['wechat'] = $website  . '/api/general/config/detail/ids/'.$v['id'];
             }elseif ($v['name'] == 'about'){
-                $data['about'] = $website  . '/general/config/detail/ids/'.$v['id'];
+                $data['about'] = $website  . '/api/general/config/detail/ids/'.$v['id'];
             }
         }
         return api_json('0', 'ok', $data);
