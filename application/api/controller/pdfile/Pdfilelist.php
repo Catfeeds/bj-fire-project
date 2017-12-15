@@ -26,7 +26,7 @@ class Pdfilelist extends Api
     {
         $ids = input('ids');
 
-        $list = model('Category')->with('pdfilelist')->where('pid', $ids)->select();
+        $list = model('Category')->with('pdfilelist')->where('pid', $ids)->order('weigh desc,id desc')->select();
 
         foreach ($list as $k=>$v){
             if (count($v['pdfilelist'])){
