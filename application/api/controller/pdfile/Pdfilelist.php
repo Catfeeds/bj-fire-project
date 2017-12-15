@@ -27,11 +27,12 @@ class Pdfilelist extends Api
         $ids = input('ids');
 
         $list = model('Category')->with('pdfilelist')->where('pid', $ids)->order('weigh desc,id desc')->select();
+        $website = model('Config')->where('name', 'website')->value('value');
 
         foreach ($list as $k=>$v){
             if (count($v['pdfilelist'])){
                 foreach ($v['pdfilelist'] as $key=>$value){
-                    $value['url'] = 'http://fire.mcykj.com/PDFuploads/'.$value['url'];
+                    $value['url'] = $website . '/PDFuploads/'.$value['url'];
                 }
             }
         }
