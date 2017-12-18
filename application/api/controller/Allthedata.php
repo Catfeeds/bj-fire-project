@@ -64,7 +64,11 @@ class Allthedata extends Api
         // 把PHP数组转成JSON字符串
         $json_string = json_encode($data);
         // 写入文件
-        file_put_contents('versionData.json', $json_string);
+        if(file_put_contents('versionData.json', $json_string)){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     /**

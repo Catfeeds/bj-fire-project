@@ -21,7 +21,6 @@
             </li>
         </ul>
     </div>
-
     <div class="panel-body">
         <div id="myTabContent" class="tab-content">
             {foreach $siteList as $index=>$vo} 
@@ -44,6 +43,13 @@
                                         <div class="row">
                                             <div class="col-sm-8 col-xs-12">
                                                 {switch $item.type}
+                                                {case button}
+                                                <div class="form-inline">
+                                                    <div class="col-xs-12 col-sm-8">
+                                                        <a class="vension btn btn-sm btn-success" href="javascript:;">点击生成</a>
+                                                    </div>
+                                                </div>
+                                                {/case}
                                                 {case string}
                                                 <input type="text" name="row[{$item.name}]" value="{$item.value}" class="form-control" data-rule="{$item.rule}" data-tip="{$item.tip}" {$item.extend} />
                                                 {/case}

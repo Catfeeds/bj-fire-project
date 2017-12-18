@@ -38,7 +38,7 @@ class Questions extends Api
 
     public function getAllList()
     {
-        return $this->model->select();
+        return $this->model->where('status', 1)->select();
     }
 
 }

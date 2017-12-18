@@ -97,3 +97,14 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
     };
     return Controller;
 });
+$(document).ready(function(){
+    $(".vension").click(function () {
+        $.get('/api/Allthedata/versionData', {}, function (res) {
+            if (res == true){
+                alert('生成服务器数据文件成功！');
+            }else{
+                alert('生成服务器数据文件失败！');
+            }
+        })
+    });
+});
