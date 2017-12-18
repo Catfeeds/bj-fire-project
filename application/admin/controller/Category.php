@@ -74,6 +74,52 @@ class Category extends Backend
         return $this->view->fetch();
     }
 
+    public function add()
+    {
+        if ($this->request->isPost())
+        {
+            $params = $this->request->post("row/a");
+            if ($params)
+            {
+                if ($this->dataLimit)
+                {
+                    $params[$this->dataLimitField] = $this->auth->id;
+                }
+                try
+                {
+                    //是否采用模型验证
+                    if ($this->modelValidate)
+                    {
+                        $name = basename(str_replace('\\', '/', get_class($this->model)));
+                        $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.add' : true) : $this->modelValidate;
+                        $this->model->validate($validate);
+                    }
+                    // 找pid值
+                    foreach ($params['pid'] as $k=>$v){
+                        if ($v == ''){
+                            $params['pid'] = $params['pid'][$k-1];
+                        }
+                    }
+                    $result = $this->model->allowField(true)->save($params);
+                    if ($result !== false)
+                    {
+                        $this->success();
+                    }
+                    else
+                    {
+                        $this->error($this->model->getError());
+                    }
+                }
+                catch (\think\exception\PDOException $e)
+                {
+                    $this->error($e->getMessage());
+                }
+            }
+            $this->error(__('Parameter %s can not be empty', ''));
+        }
+        return $this->view->fetch();
+    }
+
     /**
      * Selectpage搜索
      * 

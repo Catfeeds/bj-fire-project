@@ -66,7 +66,7 @@ class Category extends Api
      */
     public function getPaperCaetgory()
     {
-        $result = $this->model->field('id,pid,type,name,accounted')->where('status', 'normal')->select();
+        $result = $this->model->field('id,pid,type,name,accounted')->where('status', 'normal')->order('weigh desc,id desc')->select();
 
         foreach ($result as $k=>$v){
             $v['ppid'] = $this->model->where('id', $v['pid'])->value('pid'); // 向上二级ID

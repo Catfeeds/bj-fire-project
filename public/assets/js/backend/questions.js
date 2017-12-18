@@ -42,30 +42,30 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree', 'template']
 
                 // 判断联动选择项是否选择，进行有增/删
                 if($.trim($("select[name='type']").val())!=''){
-                    params.filter['type'] = $.trim($("select[name='type']").val());
+                    params.filter['type'] = ','+$.trim($("select[name='type']").val())+',';
                     params.op['type'] = "=";
                 } else {
                     delete params.filter['type'];
                     delete params.op['type'];
                 }
                 if($.trim($("select[name='category1']").val())!=''){
-                    params.filter['category'] = $.trim($("select[name='category1']").val());
+                    params.filter['category'] = ','+$.trim($("select[name='category1']").val())+',';
                     params.op['category'] = "LIKE";
                 }
                 if($.trim($("select[name='category2']").val())!=''){
-                    params.filter['category'] = $.trim($("select[name='category2']").val());
+                    params.filter['category'] = ','+$.trim($("select[name='category2']").val())+',';
                     params.op['category'] = "LIKE";
                 }
                 if($.trim($("select[name='category3']").val())!=''){
-                    params.filter['category'] = $.trim($("select[name='category3']").val());
+                    params.filter['category'] = ','+$.trim($("select[name='category3']").val())+',';
                     params.op['category'] = "LIKE";
                 }
                 if($.trim($("select[name='category4']").val())!=''){
-                    params.filter['category'] = $.trim($("select[name='category4']").val());
+                    params.filter['category'] = ','+$.trim($("select[name='category4']").val())+',';
                     params.op['category'] = "LIKE";
                 }
                 if($.trim($("select[name='category5']").val())!=''){
-                    params.filter['category'] = $.trim($("select[name='category5']").val());
+                    params.filter['category'] = ','+$.trim($("select[name='category5']").val())+',';
                     params.op['category'] = "LIKE";
                 }
 
@@ -107,14 +107,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree', 'template']
                     ]
                 ],
 
-                //禁用默认搜索
-                search: true,
-
-                //启用普通表单搜索
-                commonSearch: true,
-
                 //可以控制是否默认显示搜索单表,false则隐藏,默认为false
-                searchFormVisible: true,
                 queryParams: function (params) {
                     params.filter = JSON.stringify(params.filter);
                     params.op = JSON.stringify(params.op);

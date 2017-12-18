@@ -16,11 +16,13 @@
         <label for="c-pid" class="control-label col-xs-12 col-sm-2">{:__('Pid')}:</label>
         <div class="col-xs-12 col-sm-8">
 
-            <select id="c-pid" data-rule="required" class="form-control selectpicker" name="row[pid]">
-                {foreach name="parentList" item="vo"}
-                <option data-type="{$vo.type}" value="{$key}" {in name="key" value=""}selected{/in}>{$vo.name}</option>
-                {/foreach}
-            </select>
+            <div class="form-inline" data-toggle="cxselect" data-selects="one,two,tree,four,five">
+                <select class="one form-control" name="row[pid][]" data-url="ajax/category?pid=0"></select>
+                <select class="two form-control" name="row[pid][]" data-url="ajax/category" data-query-name="pid"></select>
+                <select class="tree form-control" name="row[pid][]" data-url="ajax/category" data-query-name="pid"></select>
+                <select class="four form-control" name="row[pid][]" data-url="ajax/category" data-query-name="pid"></select>
+                <select class="five form-control" name="row[pid][]" data-url="ajax/category" data-query-name="pid"></select>
+            </div>
 
         </div>
     </div>
