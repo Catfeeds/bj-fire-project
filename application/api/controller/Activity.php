@@ -38,9 +38,11 @@ class Activity extends Api
         $limit  = $page * 10;
 
         $total = $this->model
+            ->where('top', 0)
             ->count();
 
         $list = $this->model
+            ->where('top', 0)
             ->field('id, type, title, time, image, describe')
             ->limit($offset, $limit)
             ->select();

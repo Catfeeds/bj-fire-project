@@ -52,6 +52,7 @@ class Allthedata extends Api
 
         $questions = new Questions();
         $data['questions'] = $questions->getAllList();
+        return json($data['questions']);die;
 
         $papers = new Rule();
         $data['papers'] = $papers->getPaperRuleList();
@@ -60,7 +61,6 @@ class Allthedata extends Api
 
         $data['version'] = model('Config')->where('name', 'version')->value('value');
         $data['pdfversion'] = model('Config')->where('name', 'pdfversion')->value('value');
-
         // 把PHP数组转成JSON字符串
         $json_string = json_encode($data);
         // 写入文件

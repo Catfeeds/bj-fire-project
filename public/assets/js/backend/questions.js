@@ -101,7 +101,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree', 'template']
                         {field: 'difficulty', title: __('Difficulty'), operate: false},
                         {field: 'category', title: __('Category'), searchList: function () {
                             return Template('categorytpl', {});
-                        }, formatter: Controller.api.formatter.category},
+                        }},
                         {field: 'images', title: __('Images'), operate: false},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
@@ -162,21 +162,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree', 'template']
                         default:
                             return value;
                     }
-                },
-                category: function (value, row, index) {
-                    var text = '', html = '';
-                    $.ajax({
-                        url: "category/getCategroyList",
-                        data: {categorylist: value},
-                        async: false,
-                        success: function (res) {
-                            text = res;
-                        }
-                    });
-                    for(var i=0;i<text.length;i++){
-                        html += '<span class="label label-success">'+text[i]+'</span>&nbsp;';
-                    }
-                    return html;
                 }
             },
             bindevent: function () {

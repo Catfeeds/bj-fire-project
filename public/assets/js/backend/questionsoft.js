@@ -88,7 +88,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'jstree', 'template']
                         {field: 'id', title: __('Id'), operate: false},
                         {field: 'type', title: __('Type'), searchList: $.getJSON('questions/getTypeListAjax'), formatter: Controller.api.formatter.type},
                         {field: 'answer', title: __('Answer'), formatter: Controller.api.formatter.answer, operate: false},
-                        {field: 'analysis', title: __('Analysis'), operate: false},
+                        {field: 'title', title: __('Title'), operate: false},
                         {field: 'difficulty', title: __('Difficulty'), operate: false},
                         {field: 'category', title: __('Category'), searchList: function () {
                             return Template('categorytpl', {});

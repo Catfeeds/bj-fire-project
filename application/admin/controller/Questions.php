@@ -54,7 +54,7 @@ class Questions extends Backend
                 return $this->selectpage();
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
-            $status = ['status' => 1];
+            $status['status'] = 1;
             $total = $this->model
                 ->where($where)
                 ->where($status)
@@ -67,6 +67,15 @@ class Questions extends Backend
                 ->order($sort, $order)
                 ->limit($offset, $limit)
                 ->select();
+
+            $category = model('Category');
+            foreach ($list as $k=>&$v){
+                $categorylist = explode(',', $v['category']);
+                $v['category'] = '';
+                foreach ($categorylist as $ks=>$vs){
+                    $v['category'] .= '<span class="label label-success">'.$category->getCategoryName($vs).'</span>&nbsp';
+                }
+            }
 
             // 图片是否设置
             $list = $this->model->imagesCheck($list);
