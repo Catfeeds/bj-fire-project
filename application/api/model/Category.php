@@ -37,6 +37,7 @@ class Category extends Model
 
         foreach ($result as $k=>$v){
             $where['category'] = ['like', '%,'.$v['id'].',%'];
+            $where['status']   = 1;
             $v['quenum']   = model('Questions')->where($where)->count();
 
             $v['child'] = $this->field('id,pid,name')->where('pid', $v['id'])->select();
