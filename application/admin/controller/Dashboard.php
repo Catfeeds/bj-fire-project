@@ -33,22 +33,27 @@ class Dashboard extends Backend
         $categorycount = model('Category')->count();
         $attachmentcount = model('Attachment')->count();
 
+        $questionstotal = model('Questions')->count();
+        $pdftotal = model('Pdfilelist')->count();
+        $activetotal = model('Activity')->count();
+        $activetotalUser = model('ActivityUser')->count();
+
+        $questionTrue = model('Questions')->where('status', 1)->count();
+        $questionFalse = model('Questions')->where('status', 0)->count();
+
         $this->view->assign([
             'totaluser'        => $totaluser,
-            'totalviews'       => 219390,
-            'totalorder'       => 32143,
-            'totalorderamount' => 174800,
-            'todayuserlogin'   => 321,
-            'todayusersignup'  => 430,
-            'todayorder'       => 2324,
-            'unsettleorder'    => 132,
-            'sevendnu'         => '80%',
-            'sevendau'         => '32%',
+            'questionstotal'   => $questionstotal,
+            'pdftotal'         => $pdftotal,
+            'activetotal'      => $activetotal,
             'paylist'          => $paylist,
             'createlist'       => $createlist,
             'uploadmode'       => $uploadmode,
             'categorycount'    => $categorycount,
-            'attachmentcount' => $attachmentcount
+            'attachmentcount'  => $attachmentcount,
+            'questionTrue'     => $questionTrue,
+            'questionFalse'    => $questionFalse,
+            'activetotalUser'  => $activetotalUser
         ]);
 
         return $this->view->fetch();
