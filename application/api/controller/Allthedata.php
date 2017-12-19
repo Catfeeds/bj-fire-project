@@ -52,7 +52,6 @@ class Allthedata extends Api
 
         $questions = new Questions();
         $data['questions'] = $questions->getAllList();
-        return json($data['questions']);die;
 
         $papers = new Rule();
         $data['papers'] = $papers->getPaperRuleList();

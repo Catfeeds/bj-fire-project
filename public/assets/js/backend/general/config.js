@@ -100,6 +100,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
 $(document).ready(function(){
     $(".vension").click(function () {
         $.get('/api/Allthedata/versionData', {}, function (res) {
+            console.info(res);
             if (res == true){
                 alert('生成服务器数据文件成功！');
             }else{
