@@ -20,7 +20,7 @@ return [
     // 用户名
     'username'        => 'wangcailin',
     // 密码
-    'password'        => 'mcywclmysql',
+    'password'        => 'mcywclsql',
     // 端口
     'hostport'        => '',
     // 连接dsn
