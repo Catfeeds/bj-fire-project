@@ -34,7 +34,7 @@ class Questionsuser extends Api
     public function saveQuestionsUser()
     {
         $uid        = input('uid');
-        $data        = input('data');
+        $data       = json_decode(input('data'));
 
         foreach ($data as $k=>&$v){
             $v['uid'] = $uid;
