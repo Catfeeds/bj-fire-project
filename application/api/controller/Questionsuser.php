@@ -34,27 +34,10 @@ class Questionsuser extends Api
     public function saveQuestionsUser()
     {
         $uid        = input('uid');
-        $qid        = input('qid');
-        $type       = input('type');
-        $errors     = input('errors') ? input('errors') : null;
-        $collect    = input('collect') ? input('collect') : null;
-
-        $qids = explode(',', $qid);
-
-        foreach ($qids as $k=>$v){
-            $data[] = [
-                'uid'       => $uid,
-                'qid'       => $v,
-                'type'      => $type,
-                'errors'    => $errors,
-                'collect'   => $collect
-            ];
-        }
+        $data        = input('data');
 
         foreach ($data as $k=>&$v){
-            if ($v['errors'] == '' && $v['collect'] == ''){
-                unset($v);
-            }
+            $v['uid'] = $uid;
         }
 
         $this->model->startTrans();
