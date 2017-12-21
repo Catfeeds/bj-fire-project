@@ -41,4 +41,27 @@ class Pdfilelist extends Api
 
     }
 
+    public function getAllList()
+    {
+        $ids = [38, 37, 43, 24];
+        $data = [];
+        foreach ($ids as $val){
+            $list = model('Category')->with('pdfilelist')->where('pid', $val)->order('weigh desc,id desc')->select();
+            $website = model('Config')->where('name', 'website')->value('value');
+
+            foreach ($list as $k=>$v){
+                if (count($v['pdfilelist'])){
+                    foreach ($v['pdfilelist'] as $key=>$value){
+                        $value['url'] = $website . '/PDFuploads/'.$value['url'];
+                    }
+                }
+            }
+            $res['caetgory'] = $val;
+            $res['data']     = json_encode($list);
+            $data[] = $res;
+        }
+        return api_json('0', 'ok', $data);
+
+    }
+
 }
