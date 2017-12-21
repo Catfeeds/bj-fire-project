@@ -69,7 +69,7 @@ class Questions extends Model
      * 读取题目
      * @return array
      */
-    public function getTypeList()
+    public function getTypeList(
     {
         return $this->questionsType;
     }

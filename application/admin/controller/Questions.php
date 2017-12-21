@@ -54,7 +54,7 @@ class Questions extends Backend
                 return $this->selectpage();
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
-            $status['status'] = 1;
+            $status['status'] = 1; // 非回收站
             $total = $this->model
                 ->where($where)
                 ->where($status)

@@ -24,8 +24,8 @@ return array (
   'configgroup' => 
   array (
     'basic' => 'Basic',
+    'about' => 'About',
     'dictionary' => 'Dictionary',
-    'user' => 'User',
     'example' => 'Example',
   ),
   'telephone' => '400-123-123',
