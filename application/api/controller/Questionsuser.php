@@ -52,7 +52,6 @@ class Questionsuser extends Api
             $this->model->rollback();
             return api_json('1', '同步失败', null);
         }
-
     }
 
     public function getQuestionsUser()

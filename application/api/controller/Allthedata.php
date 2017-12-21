@@ -105,6 +105,22 @@ class Allthedata extends Api
         return api_json('0', 'ok', model('test')->where('uid', $uid)->value('data'));
     }
 
+    /**
+     * 安卓更新
+     * @return \think\response\Json
+     */
+    public function updateAndroidApp()
+    {
+        $appversion = model('Config')->where('name', 'appversion')->value('value');
+        $appdesc    = model('Config')->where('name', 'appdesc')->value('value');
+        $appurl     = model('Config')->where('name', 'appurl')->value('value');
+        $data   = [
+            'version'   => $appversion,
+            'desc'      => $appdesc,
+            'url'       => $appurl
+        ];
+        return api_json(0,'ok', $data);
+    }
 
 
 }

@@ -63,5 +63,8 @@ return [
     'Version'                     => '服务器数据版本号',
     'JpushKey'                    => '极光推送AppKey',
     'JpushSecret'                 => '极光推送Secret',
-    'JpushSchema'                 => '极光推送Schema协议头'
+    'JpushSchema'                 => '极光推送Schema协议头',
+    'appeVrsion'                  => 'APP版本',
+    'appDesc'                     => 'APP更新描述',
+    'appUrl'                      => 'APP下载地址'
 ];
