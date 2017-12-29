@@ -26,7 +26,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
                         {field: 'uid', title: __('Uid')},
-                        {field: 'type', title: __('Type')},
+                        {field: 'type', title: __('Type'), formatter: Controller.api.formatter.type},
                         {field: 'sum_questions', title: __('Sum_questions')},
                         {field: 'done_questions', title: __('Done_questions')},
                         {field: 'accuracy', title: __('Accuracy')},
@@ -49,6 +49,15 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
         api: {
             bindevent: function () {
                 Form.api.bindevent($("form[role=form]"));
+            },
+            formatter: {
+                type: function (value, row, index) {
+                    if (value == 0){
+                        return '<span class="label label-success">消防员</span>';
+                    }else{
+                        return '<span class="label label-danger">消防工程师</span>';
+                    }
+                },
             }
         }
     };
