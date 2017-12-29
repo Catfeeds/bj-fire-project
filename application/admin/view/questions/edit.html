@@ -50,19 +50,19 @@
         <div class="col-xs-12 col-sm-8">
             <div class="form-inline" data-toggle="cxselect" data-selects="one,two,tree,four,five">
                 <select class="one form-control" name="row[category][0]" data-url="ajax/category?pid=0">
-                    <option value="{$row.category.0}" selected=""></option>
+                    <option value="{if condition='empty($row.category.0) neq true'}{$row.category.0}{/if}" selected=""></option>
                 </select>
                 <select class="two form-control" name="row[category][1]" data-url="ajax/category" data-query-name="pid">
-                    <option value="{$row.category.1}" selected=""></option>
+                    <option value="{if condition='empty($row.category.1) neq true'}{$row.category.1}{/if}" selected=""></option>
                 </select>
                 <select class="tree form-control" name="row[category][2]" data-url="ajax/category" data-query-name="pid">
-                    <option value="{$row.category.2}" selected=""></option>
+                    <option value="{if condition='empty($row.category.2) neq true'}{$row.category.2}{/if}" selected=""></option>
                 </select>
                 <select class="four form-control" name="row[category][3]" data-url="ajax/category" data-query-name="pid">
-                    <option value="{$row.category.3}" selected=""></option>
+                    <option value="{if condition='empty($row.category.3) neq true'}{$row.category.3}{/if}" selected=""></option>
                 </select>
                 <select class="five form-control" name="row[category][4]" data-url="ajax/category" data-query-name="pid">
-                    <option value="{$row.category.4}" selected=""></option>
+                    <option value="{if condition='empty($row.category.4) neq true'}{$row.category.4}{/if}" selected=""></option>
                 </select>
             </div>
         </div>
