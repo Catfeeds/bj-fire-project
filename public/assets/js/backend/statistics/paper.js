@@ -26,6 +26,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
                         {field: 'uid', title: __('Uid')},
+                        {field: 'type', title: __('Type')},
                         {field: 'max_score', title: __('Max_score')},
                         {field: 'sum_papers_num', title: __('Sum_papers_num')},
                         {field: 'average', title: __('Average')},

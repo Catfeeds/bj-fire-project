@@ -26,6 +26,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
                         {field: 'uid', title: __('Uid')},
+                        {field: 'type', title: __('Type')},
                         {field: 'sum_questions', title: __('Sum_questions')},
                         {field: 'done_questions', title: __('Done_questions')},
                         {field: 'accuracy', title: __('Accuracy')},
