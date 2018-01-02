@@ -12,7 +12,7 @@
     <div class="form-group">
         <label for="c-title" class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea id="c-title" data-rule="required" class="form-control " rows="3" name="row[title]" cols="50"></textarea>
+            <textarea id="c-title" class="form-control summernote edit" rows="5" name="row[title]" cols="50"></textarea>
         </div>
     </div>
     <div class="form-group">
@@ -34,7 +34,7 @@
     <div class="form-group">
         <label for="c-analysis" class="control-label col-xs-12 col-sm-2">{:__('Analysis')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-analysis" data-rule="required" class="form-control" name="row[analysis]" type="text">
+            <textarea id="c-analysis" class="form-control summernote edit" rows="5" name="row[analysis]" cols="50">{$row.analysis}</textarea>
         </div>
     </div>
     <div class="form-group">
