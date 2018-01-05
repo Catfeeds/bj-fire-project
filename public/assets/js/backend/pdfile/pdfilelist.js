@@ -30,7 +30,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'category', title: __('Category'), formatter: Controller.api.formatter.category, searchList: $.getJSON('category/getCategoryTreeSelect')},
                         {field: 'createtime', title: __('Createtime'), formatter: Table.api.formatter.datetime, operate: 'BETWEEN', type: 'datetime', addclass: 'datetimepicker', data: 'data-date-format="YYYY-MM-DD"'},
                         {field: 'updatetime', title: __('Updatetime'), formatter: Table.api.formatter.datetime, operate: 'BETWEEN', type: 'datetime', addclass: 'datetimepicker', data: 'data-date-format="YYYY-MM-DD"'},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'operate', title: __('Operate'), table: table, buttons: [
+                            {name: 'update', text: '更新', title: '更新', icon: 'fa fa-flash', classname: 'btn btn-xs btn-success btn-ajax', url: 'pdfile/pdfilelist/update', success:function(data, ret){}, error:function(){}},
+                        ],events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]
             });

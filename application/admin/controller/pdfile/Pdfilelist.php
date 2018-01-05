@@ -43,4 +43,13 @@ class Pdfilelist extends Backend
         $this->view->assign("parentList", $categorydata);
 
     }
+
+    public function update($ids = null)
+    {
+        if ($this->model->save(['updatetime' => time()],['id' => $ids])){
+            $this->success('更新成功');
+        }else{
+            $this->success('更新失败');
+        }
+    }
 }
