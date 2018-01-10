@@ -6,7 +6,7 @@
  * Time: 上午10:10
  */
 
-namespace JPush;
+namespace jpush;
 
 use JPush\Client;
 use app\api\model\Config;
