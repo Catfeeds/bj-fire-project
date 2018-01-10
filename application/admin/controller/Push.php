@@ -50,7 +50,7 @@ class Push extends Backend
                         $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.add' : true) : $this->modelValidate;
                         $this->model->validate($validate);
                     }
-                    $jpush = new JPush();
+                    $jpush = new \JPush\JPush();
                     if ($res = $jpush->sendPush($params['title'], $params['description'], $params['url'])){
                         $this->model->allowField(true)->save($params);
                         $this->success();
