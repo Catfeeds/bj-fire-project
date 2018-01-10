@@ -3,6 +3,7 @@
 namespace app\admin\controller;
 
 use app\common\controller\Backend;
+use jpush\JPush;
 use think\Controller;
 use think\Request;
 
@@ -49,7 +50,7 @@ class Push extends Backend
                         $validate = is_bool($this->modelValidate) ? ($this->modelSceneValidate ? $name . '.add' : true) : $this->modelValidate;
                         $this->model->validate($validate);
                     }
-                    $jpush = new \jpush\JPush();
+                    $jpush = new JPush();
                     if ($res = $jpush->sendPush($params['title'], $params['description'], $params['url'])){
                         $this->model->allowField(true)->save($params);
                         $this->success();
