@@ -38,8 +38,10 @@ class User extends Model
 
         if (!$res = $this->where('password', md5($data['password'].$string))->find()){
             return 1; //密码错误
+        }else{
+            $res = $this->where('password', md5($data['password'].$string))->find()->getData();
+            return $res; //登录成功
         }
-        return $res; //登录成功
     }
 
     /**
