@@ -33,11 +33,10 @@ class User extends Api
     {
         $mobile    = input('mobile');
         $password  = input('password');
-        $string    = input('string');
 
         $data = [
             'mobile'    => $mobile,
-            'password'  => $password,
+            'password'  => $password
         ];
         $res = $this->model->loginCheck($data);
         if ($res == 0){

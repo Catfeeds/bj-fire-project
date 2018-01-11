@@ -34,11 +34,11 @@ class User extends Model
             return 0; //手机号不存在
         }
 
-        if (!$res = $this->where('password', $data['password'])->find()){
-            return 1; //密码错误
-        }
+        $string = $res->string;
 
-        if ($res = $this->where($data)->find()->getData()){
+        if (!$res = $this->where('password', md5($data['password'].$string))->find()){
+            return 1; //密码错误
+        }else{
             return $res; //登录成功
         }
     }
