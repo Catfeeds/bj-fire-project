@@ -140,7 +140,7 @@ class Allthedata extends Api
      */
     public function getImagesUrl()
     {
-        $images = model('Attachment')->field('id,url')->where('mimetype', 'image/png')->select();
+        $images = model('Attachment')->field('id,url')->where('mimetype', 'LIKE', 'image%')->select();
         return api_json(0,'ok', $images);
     }
 
