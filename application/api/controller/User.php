@@ -100,9 +100,8 @@ class User extends Api
         $password = input('password');
         $string   = input('string');
 
-        $res = $this->model->save(
+        $res = $this->model->where('mobile', $mobile)->save(
             ['password' => $password],
-            ['mobile'   => $mobile],
             ['string'   => $string]
         );
         if ($res){
