@@ -40,7 +40,6 @@ class Allthedata extends Api
         $data['version'] = model('Config')->where('name', 'version')->value('value');
         $data['pdfversion'] = model('Config')->where('name', 'pdfversion')->value('value');
 
-        $data['images'] = model('Attachment')->where('mimetype', 'image/png')->value('url');
 
         return api_json('0', 'ok', $data);
     }
@@ -122,6 +121,12 @@ class Allthedata extends Api
             'url'       => $appurl
         ];
         return api_json(0,'ok', $data);
+    }
+
+    public function getImagesUrl()
+    {
+        $images = model('Attachment')->field('id,url')->where('mimetype', 'image/png')->select();
+        return api_json(0,'ok', $images);
     }
 
 
