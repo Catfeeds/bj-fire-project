@@ -39,7 +39,6 @@ class User extends Api
             'password'  => $password
         ];
         $res = $this->model->loginCheck($data);
-        var_dump($res);die;
         if ($res == 0){
             return api_json('1', '手机号不存在', $data);
         }elseif ($res == 1){
