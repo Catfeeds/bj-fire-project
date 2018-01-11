@@ -100,10 +100,10 @@ class User extends Api
         $password = input('password');
         $string   = input('string');
 
-        $res = $this->model->where('mobile', $mobile)->save(
-            ['password' => $password],
-            ['string'   => $string]
-        );
+        $res = $this->model->save([
+                'password' => $password,
+                'string'   => $string
+        ], ['mobile'   => $mobile]);
         if ($res){
             return api_json('0', '修改成功', null);
         }
