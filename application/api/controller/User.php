@@ -33,10 +33,11 @@ class User extends Api
     {
         $mobile    = input('mobile');
         $password  = input('password');
+        $string    = input('string');
 
         $data = [
             'mobile'    => $mobile,
-            'password'  => $password
+            'password'  => $password,
         ];
         $res = $this->model->loginCheck($data);
         if ($res == 0){
@@ -56,6 +57,7 @@ class User extends Api
 
         $mobile    = input('mobile');
         $password  = input('password');
+        $string    = input('string');
 
         $rule = [
             'mobile'  => 'require|length:11',
@@ -77,7 +79,8 @@ class User extends Api
         $data = [
             'mobile'    => $mobile,
             'username'  => $mobile,
-            'password'  => $password
+            'password'  => $password,
+            'string'    => $string
         ];
 
         if ($this->model->save($data))
@@ -96,9 +99,12 @@ class User extends Api
     {
         $mobile   = input('mobile');
         $password = input('password');
+        $string   = input('string');
+
         $res = $this->model->save(
             ['password' => $password],
-            ['mobile'   => $mobile]
+            ['mobile'   => $mobile],
+            ['string'   => $string]
         );
         if ($res){
             return api_json('0', '修改成功', null);
