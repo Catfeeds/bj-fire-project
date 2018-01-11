@@ -44,6 +44,10 @@ class Allthedata extends Api
         return api_json('0', 'ok', $data);
     }
 
+    /**
+     * 生成版本数据文件
+     * @return bool
+     */
     public function versionData()
     {
         $data = [];
@@ -82,6 +86,10 @@ class Allthedata extends Api
         return api_json('0', 'ok', $data);
     }
 
+    /**
+     * 保存前台提交更新数据
+     * @return \think\response\Json
+     */
     public function saveTest()
     {
         $data = [
@@ -123,6 +131,13 @@ class Allthedata extends Api
         return api_json(0,'ok', $data);
     }
 
+    /**
+     * 获取所有图片地址
+     * @return \think\response\Json
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
     public function getImagesUrl()
     {
         $images = model('Attachment')->field('id,url')->where('mimetype', 'image/png')->select();
