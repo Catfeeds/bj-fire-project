@@ -159,7 +159,7 @@ $config = [
          * The maximum allowed file size (in Bytes). If set to "false", no size limitations applied.
          * See https://github.com/blueimp/jQuery-File-Upload/wiki/Options#maxfilesize.
          */
-        "fileSizeLimit" => 16000000,
+        "fileSizeLimit" => 500000000,
         /**
          * Default value "false".
          * If set to "true" files will be overwritten on uploads if they have same names, otherwise an index will be added.
