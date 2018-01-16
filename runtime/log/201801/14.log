@@ -1,0 +1,531 @@
+---------------------------------------------------------------
+[ 2018-01-14T06:12:58+08:00 ] 172.16.125.100 111.196.204.230 GET /api/user/login?mobile=13214725836&password=d8578edf8458ce06fbc5bb76a58c5ca4
+[ info ] fire.mcykj.com/api/user/login?mobile=13214725836&password=d8578edf8458ce06fbc5bb76a58c5ca4 [运行时间：0.040663s][吞吐率：24.59req/s] [内存消耗：2,955.09kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000872s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G9250 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13214725836',
+  'password' => 'd8578edf8458ce06fbc5bb76a58c5ca4',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000194s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->login[ /home/wwwroot/fire.mcykj.com/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003320s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002782s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `mobile` = '13214725836' LIMIT 1 [ RunTime:0.002330s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `password` = '897c8fde25c5cc5270cda61425eed3c8' LIMIT 1 [ RunTime:0.002257s ]
+---------------------------------------------------------------
+[ 2018-01-14T06:12:58+08:00 ] 172.16.125.100 111.196.204.230 GET /api/user/
+[ info ] fire.mcykj.com/api/user/ [运行时间：0.028671s][吞吐率：34.88req/s] [内存消耗：2,927.31kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000834s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'fire.mcykj.com',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G9250 Build/MMB29K)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000153s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-14T09:56:27+08:00 ] 172.16.125.100 117.136.0.104 POST /api/ad/getTypeAdList
+[ info ] fire.mcykj.com/api/ad/getTypeAdList [运行时间：0.039126s][吞吐率：25.56req/s] [内存消耗：2,981.24kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000866s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ad',
+    2 => 'getTypeAdList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.9.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'fire.mcykj.com',
+  'content-length' => '13',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'access_token=',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+  'type' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000158s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ad->getTypeAdList[ /home/wwwroot/fire.mcykj.com/application/api/controller/Ad.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003909s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.003271s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `type` = 1  AND `page` = 3 [ RunTime:0.002650s ]
+---------------------------------------------------------------
+[ 2018-01-14T10:02:16+08:00 ] 172.16.125.100 106.121.77.147 GET /admin/dashboard?ref=addtabs
+[ info ] fire.mcykj.com/admin/dashboard?ref=addtabs [运行时间：0.022440s][吞吐率：44.56req/s] [内存消耗：2,187.17kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000861s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'fire.mcykj.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000167s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/fire.mcykj.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-14T10:02:20+08:00 ] 172.16.125.100 106.121.77.147 GET /admin/index/login?url=%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ info ] fire.mcykj.com/admin/index/login?url=%2Fadmin%2Fdashboard%3Fref%3Daddtabs [运行时间：0.025240s][吞吐率：39.62req/s] [内存消耗：2,472.59kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000875s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://fire.mcykj.com/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'host' => 'fire.mcykj.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/dashboard?ref=addtabs',
+)
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000191s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /home/wwwroot/fire.mcykj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/fire.mcykj.com/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-14T11:32:27+08:00 ] 172.16.125.100 106.11.227.49 GET /
+[ info ] fire.mcykj.com/ [运行时间：0.021891s][吞吐率：45.68req/s] [内存消耗：2,192.36kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000847s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'fire.mcykj.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000167s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/fire.mcykj.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/wwwroot/fire.mcykj.com/public/../application/index/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-14T18:40:16+08:00 ] 172.16.125.100 117.100.138.247 POST /api/ad/getTypeAdList
+[ info ] fire.mcykj.com/api/ad/getTypeAdList [运行时间：0.036406s][吞吐率：27.47req/s] [内存消耗：2,981.34kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000823s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ad',
+    2 => 'getTypeAdList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '13',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+  'type' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000157s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ad->getTypeAdList[ /home/wwwroot/fire.mcykj.com/application/api/controller/Ad.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003402s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.002741s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `type` = 1  AND `page` = 3 [ RunTime:0.002246s ]
+---------------------------------------------------------------
+[ 2018-01-14T18:40:18+08:00 ] 172.16.125.100 117.100.138.247 POST /api/ad/getTypeAdList
+[ info ] fire.mcykj.com/api/ad/getTypeAdList [运行时间：0.036438s][吞吐率：27.44req/s] [内存消耗：2,981.87kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000787s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ad',
+    2 => 'getTypeAdList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '13',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=10n21tm8vftop56df6sndt0r24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+  'type' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000148s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ad->getTypeAdList[ /home/wwwroot/fire.mcykj.com/application/api/controller/Ad.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003315s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.002746s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `type` = 1  AND `page` = 0 [ RunTime:0.002216s ]
+---------------------------------------------------------------
+[ 2018-01-14T18:40:21+08:00 ] 172.16.125.100 117.100.138.247 POST /api/ad/getTypeAdList
+[ info ] fire.mcykj.com/api/ad/getTypeAdList [运行时间：0.038364s][吞吐率：26.07req/s] [内存消耗：2,988.26kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000791s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ad',
+    2 => 'getTypeAdList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '13',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=10n21tm8vftop56df6sndt0r24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+  'type' => '0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000162s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ad->getTypeAdList[ /home/wwwroot/fire.mcykj.com/application/api/controller/Ad.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004109s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.003217s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `type` = 0  AND `page` = 0 [ RunTime:0.002704s ]
+---------------------------------------------------------------
+[ 2018-01-14T18:40:21+08:00 ] 172.16.125.100 117.100.138.247 POST /api/message/getMessage
+[ info ] fire.mcykj.com/api/message/getMessage [运行时间：0.037793s][吞吐率：26.46req/s] [内存消耗：2,948.75kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000833s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'message',
+    2 => 'getMessage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '6',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=10n21tm8vftop56df6sndt0r24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => '0',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000152s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Message->getMessage[ /home/wwwroot/fire.mcykj.com/application/api/controller/Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003941s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.003224s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_message` WHERE  `type` = 0 LIMIT 1 [ RunTime:0.002634s ]
+---------------------------------------------------------------
+[ 2018-01-14T18:40:21+08:00 ] 172.16.125.100 117.100.138.247 POST /api/allthedata/getVersion
+[ info ] fire.mcykj.com/api/allthedata/getVersion [运行时间：0.038725s][吞吐率：25.82req/s] [内存消耗：2,954.19kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000831s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'allthedata',
+    2 => 'getVersion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'cookie' => 'PHPSESSID=10n21tm8vftop56df6sndt0r24',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000147s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\api\controller\Allthedata->getVersion[ /home/wwwroot/fire.mcykj.com/application/api/controller/Allthedata.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003502s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.002870s ]
+[ sql ] [ SQL ] SELECT `value` FROM `fa_config` WHERE  `name` = 'version' LIMIT 1 [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT `value` FROM `fa_config` WHERE  `name` = 'pdfversion' LIMIT 1 [ RunTime:0.002284s ]
+---------------------------------------------------------------
+[ 2018-01-14T18:40:24+08:00 ] 172.16.125.100 117.100.138.247 POST /api/ad/getTypeAdList
+[ info ] fire.mcykj.com/api/ad/getTypeAdList [运行时间：0.036312s][吞吐率：27.54req/s] [内存消耗：2,981.87kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000816s ]
+[ info ] [ LANG ] /home/wwwroot/fire.mcykj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ad',
+    2 => 'getTypeAdList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '13',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'user-agent' => 'ExaminationAssistant/1.0 (iPhone; iOS 11.2.2; Scale/3.00)',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=10n21tm8vftop56df6sndt0r24',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'fire.mcykj.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '0',
+  'type' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000166s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Ad->getTypeAdList[ /home/wwwroot/fire.mcykj.com/application/api/controller/Ad.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003079s ] mysql:host=118.31.47.137;dbname=fireadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ad` [ RunTime:0.002506s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_ad` WHERE  `type` = 1  AND `page` = 0 [ RunTime:0.002084s ]
