@@ -40,6 +40,7 @@ class LocalApi implements ApiInterface
                 'fileSizeLimit' => $this->storage->config('upload.fileSizeLimit'),
             ],
         ];
+        var_dump($this->storage->config('upload.fileSizeLimit'));die;
 
         return [
             'id' => '/',
